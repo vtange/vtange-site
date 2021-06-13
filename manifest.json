@@ -1,0 +1,23 @@
+{
+    "name": "vtange - Home",
+    "short_name": "vtange",
+    "description": ".",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#342b3c",
+    "theme_color": "#ff9933",
+    "icons": [
+      {
+        "src": "/ico/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/ico/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
