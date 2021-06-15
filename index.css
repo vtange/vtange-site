@@ -5,15 +5,26 @@ body {
     margin: 0;
 }
 
-.logo {
-    border: 0.15rem solid sandybrown;
-    border-radius: 0 0 2rem 2rem;
-    height: 6rem;
-    position: absolute;
-    top: 0;
-    transform: translateY(-.4rem);
+header {
+    border-bottom: 0.15rem solid sandybrown;
 }
 
+.header-internal {
+    background: #32293a;
+    box-shadow: 0px -0.25rem 0.5rem black;
+    padding-top: 0.4rem;
+    width: 98%;
+    margin: auto;
+}
+
+.logo [alt="logo"] {
+    height: 40px;
+    margin-left: 10px;
+}
+.logo [alt="vtange"] {
+    height: 24px;
+    padding-bottom: 8px;
+}
 
 .construction {
     margin-top:  30vh;
@@ -35,9 +46,6 @@ body {
 /* smallest */
 @media (max-width: 450px) {
     .logo {
-        border-radius: 0 0 2rem 2rem;
-        height: 6rem;
-        transform: translateY(-.4rem);
     }
 }
 
@@ -48,9 +56,6 @@ body {
 /* medium */
 @media (min-width: 700px) {
     .logo {
-        border-radius: 0 0 3rem 3rem;
-        height: 9em;
-        transform: translateY(-.7rem);
     }
 }
 
@@ -60,9 +65,6 @@ body {
 /* lrg */
 @media (min-width: 1200px) {
     .logo {
-        border-radius: 0 0 4rem 4rem;
-        height: 12rem;
-        transform: translateY(-1rem);
     }
 }
 
