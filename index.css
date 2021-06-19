@@ -7,24 +7,64 @@ body {
 
 header {
     border-bottom: 0.15rem solid sandybrown;
-    margin-top: 8px;
 }
 
 .header-internal {
     background: #32293a;
     box-shadow: 0px -0.15rem 0.5rem rgba(0,0,0,0.3);
+    display: flex;
     padding-top: 0.4rem;
-    width: 98%;
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    width: 128px;
     margin: auto;
 }
 
 .logo [alt="logo"] {
     height: 48px;
-    margin-left: 10px;
 }
 .logo [alt="vtange"] {
     height: 24px;
     padding-bottom: 12px;
+}
+
+.sm-icon {
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 6px;
+    height: 48px;
+    width: 48px;
+}
+
+.sm-icon:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.sm-icon:active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.sm-icon svg {
+    fill: rgb(255, 219, 173);
+    height: 36px;
+    width: 36px;
+    transition: fill 0.3s ease;
+}
+
+.sm-icon:hover svg {
+    fill: white;
+}
+
+.sm-icon:active svg {
+    fill: rgb(255, 163, 42);
+}
+
+.sm-link {
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 #main {
@@ -74,8 +114,6 @@ header {
 
 /* smallest */
 @media (max-width: 450px) {
-    .logo {
-    }
 }
 
 
@@ -83,8 +121,12 @@ header {
 }
 
 /* medium */
-@media (min-width: 700px) {
-    .logo {
+@media (min-width: 600px) {
+    header {
+        margin-top: 8px;
+    }
+    .header-internal {
+        width: 98%;
     }
 }
 
