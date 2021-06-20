@@ -79,6 +79,10 @@ ul {
     margin-right: 6px;
 }
 
+#main {
+    overflow: hidden;
+}
+
 #list {
     background: red;
     display: flex;
