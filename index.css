@@ -177,6 +177,7 @@ ul {
         margin-top: 0.25rem;
     }
     header > .sm-link {
+        /* moves Twitter icon over to the right */
         order: 1;
     }
     header > .logo {
