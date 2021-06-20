@@ -54,7 +54,7 @@ ul {
 }
 
 .sm-icon:active {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(255, 147, 46, 0.415);
 }
 
 .sm-icon > svg {
@@ -67,10 +67,6 @@ ul {
 .sm-icon:focus svg,
 .sm-icon:hover svg {
     fill: white;
-}
-
-.sm-icon:active svg {
-    fill: rgb(255, 163, 42);
 }
 
 .sm-link {
@@ -149,6 +145,42 @@ body, #main {
     width: 100%;
 }
 
+.button-container {
+    background: #32293a;
+    /* Using rem as width cause odd bg-color gap in Chrome when buttons are hovered */
+    border: 2px solid sandybrown;
+    border-radius: 24px;
+    display: none;
+    flex-direction: row;
+    height: 4rem;
+    margin: auto;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.button-container > button {
+    background: none;
+    border: none;
+    border-left: 1px solid #221f25;
+    cursor: pointer;
+    font-size: 2.5em;
+    padding: 0;
+    width: 50%;
+}
+.button-container > button:hover {
+    background-color: rgba(255, 147, 46, 0.515);
+}
+.button-container > button:active {
+    background-color: rgba(255, 147, 46, 0.315);
+}
+.button-container > button:first-child {
+    transform: scaleX(-1);
+}
+.button-container > button > span {
+    color: rgb(250, 242, 232);
+    vertical-align: super;
+}
+
 .absolute {
     position: absolute;
 }
@@ -191,6 +223,7 @@ body, #main {
     #list {
         flex-direction: row;
         margin-left: 0;
+        margin-bottom: 4rem;
     }
     header {
         border-left-width: 0.15rem;
@@ -218,6 +251,9 @@ body, #main {
     .square {
         height: 25rem;
         width: 25rem;
+    }
+    .button-container {
+        display: flex;
     }
 }
 
