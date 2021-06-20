@@ -101,6 +101,9 @@ body, #main {
     left: 50%;
     transform: translateX(-50%);
 }
+a[aria-label="Boxgun game"] .square-bg {
+    background-image:url('./img/boxgunsm.jpg');
+}
 
 #palace-title {
     color:gold;
@@ -110,6 +113,10 @@ body, #main {
     left: 50%;
     top: 5%;
     transform: translateX(-50%);
+}
+
+a[aria-label="Palace card game"] .square-bg {
+    background-image:url('./img/palacesm.jpg');
 }
 
 .proj-entry {
