@@ -177,22 +177,15 @@ body, #main {
     transform: scaleX(-1);
 }
 .button-container > button > span {
-    color: rgb(250, 242, 232);
-    vertical-align: super;
+    color: rgb(255, 219, 173);
+    line-height: 1rem;
+}
+.button-container > button:hover > span {
+    color: white;
 }
 
-.absolute {
-    position: absolute;
-}
-
-.margin-auto {
-    margin: auto;
-}
-
-/* smallest */
-@media (max-width: 455px) {
-}
-
+/* iPhone SE styling ^ */
+/* 2nd smallest */
 @media (min-width: 450px) {
     #main {
         margin: auto;
@@ -257,9 +250,6 @@ body, #main {
     }
 }
 
-@media (min-width: 1000px) {
-}
-
 /* lrg */
 @media (min-width: 1200px) {
     #boxgun-title {
@@ -274,5 +264,3 @@ body, #main {
         width: 30rem;
     }
 }
-
-@media (min-width: 1400px) {}
