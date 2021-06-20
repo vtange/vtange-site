@@ -138,6 +138,8 @@ ul {
     z-index: -1;
 }
 .square-bg {
+    /* background color to hide the :before stuff above.*/
+    background-color: #1b171f;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
