@@ -2,18 +2,22 @@
 from = "https://vtange.net"
 to = "https://vtange.com"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://www.vtange.net"
 to = "https://www.vtange.com"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://vtange.net/*"
 to = "https://vtange.com"
 status = 301
+force = true
 
 [[redirects]]
 from = "https://www.vtange.net/*"
 to = "https://www.vtange.com"
 status = 301
+force = true
